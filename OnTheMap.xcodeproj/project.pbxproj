@@ -7,12 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E527FF4A1B5146DF00961FC6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E527FF491B5146DF00961FC6 /* FBSDKCoreKit.framework */; };
+		E527FF4C1B5146F600961FC6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E527FF4B1B5146F600961FC6 /* FBSDKLoginKit.framework */; };
+		E527FF4E1B51470000961FC6 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E527FF4D1B51470000961FC6 /* FBSDKShareKit.framework */; };
+		E527FF501B529D0800961FC6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E527FF4F1B529D0800961FC6 /* WebViewController.swift */; };
+		E527FF561B56AAAC00961FC6 /* OnTheMapGlobe.png in Resources */ = {isa = PBXBuildFile; fileRef = E527FF551B56AAAC00961FC6 /* OnTheMapGlobe.png */; };
+		E5340AE71B2FBB0E00604C4D /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5340AE61B2FBB0E00604C4D /* VCMapView.swift */; };
+		E5340AEB1B30A77800604C4D /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5340AEA1B30A77800604C4D /* Locations.swift */; };
+		E5340AED1B34478000604C4D /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5340AEC1B34478000604C4D /* Students.swift */; };
+		E5340AF31B34A56300604C4D /* pin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E5340AF21B34A56300604C4D /* pin.pdf */; };
+		E5340AF51B37908400604C4D /* MyLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5340AF41B37908400604C4D /* MyLocationViewController.swift */; };
+		E5340AFB1B3AF81C00604C4D /* udacity.pdf in Resources */ = {isa = PBXBuildFile; fileRef = E5340AFA1B3AF81C00604C4D /* udacity.pdf */; };
+		E5340AFD1B3B4F5B00604C4D /* CustomButton1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5340AFC1B3B4F5B00604C4D /* CustomButton1.swift */; };
+		E5340AFF1B3B51DF00604C4D /* CustomButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5340AFE1B3B51DF00604C4D /* CustomButton2.swift */; };
+		E5340B331B3CD16C00604C4D /* LocationFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5340B321B3CD16C00604C4D /* LocationFieldDelegate.swift */; };
+		E5340B351B3CD65600604C4D /* URLFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5340B341B3CD65600604C4D /* URLFieldDelegate.swift */; };
+		E5340B651B3DFDE100604C4D /* UsernameFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5340B641B3DFDE100604C4D /* UsernameFieldDelegate.swift */; };
+		E5340B671B3DFDF900604C4D /* PasswordFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5340B661B3DFDF900604C4D /* PasswordFieldDelegate.swift */; };
+		E5340B691B416C4800604C4D /* OTMClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5340B681B416C4800604C4D /* OTMClient.swift */; };
+		E5E185841B4C618F00F4EA67 /* NetworkConnectCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E185831B4C618F00F4EA67 /* NetworkConnectCheck.swift */; };
 		E5F95B091B29030D00396EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F95B081B29030D00396EC5 /* AppDelegate.swift */; };
-		E5F95B0B1B29030D00396EC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F95B0A1B29030D00396EC5 /* ViewController.swift */; };
+		E5F95B0B1B29030D00396EC5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F95B0A1B29030D00396EC5 /* LoginViewController.swift */; };
 		E5F95B0E1B29030D00396EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F95B0C1B29030D00396EC5 /* Main.storyboard */; };
 		E5F95B101B29030D00396EC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F95B0F1B29030D00396EC5 /* Images.xcassets */; };
 		E5F95B131B29030D00396EC5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5F95B111B29030D00396EC5 /* LaunchScreen.xib */; };
 		E5F95B1F1B29030D00396EC5 /* OnTheMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F95B1E1B29030D00396EC5 /* OnTheMapTests.swift */; };
+		E5F95B2B1B2E7FDD00396EC5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F95B2A1B2E7FDD00396EC5 /* MapViewController.swift */; };
+		E5F95B2D1B2E816000396EC5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F95B2C1B2E816000396EC5 /* TableViewController.swift */; };
+		E5F9AC051B8685E5004BC23A /* OTMConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F9AC041B8685E5004BC23A /* OTMConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +48,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E527FF491B5146DF00961FC6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = /Users/geopotosky/Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<absolute>"; };
+		E527FF4B1B5146F600961FC6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = /Users/geopotosky/Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<absolute>"; };
+		E527FF4D1B51470000961FC6 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = /Users/geopotosky/Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<absolute>"; };
+		E527FF4F1B529D0800961FC6 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		E527FF551B56AAAC00961FC6 /* OnTheMapGlobe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OnTheMapGlobe.png; sourceTree = "<group>"; };
+		E5340AE61B2FBB0E00604C4D /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
+		E5340AEA1B30A77800604C4D /* Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		E5340AEC1B34478000604C4D /* Students.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
+		E5340AF21B34A56300604C4D /* pin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pin.pdf; sourceTree = "<group>"; };
+		E5340AF41B37908400604C4D /* MyLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLocationViewController.swift; sourceTree = "<group>"; };
+		E5340AFA1B3AF81C00604C4D /* udacity.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = udacity.pdf; sourceTree = "<group>"; };
+		E5340AFC1B3B4F5B00604C4D /* CustomButton1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton1.swift; sourceTree = "<group>"; };
+		E5340AFE1B3B51DF00604C4D /* CustomButton2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton2.swift; sourceTree = "<group>"; };
+		E5340B321B3CD16C00604C4D /* LocationFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationFieldDelegate.swift; sourceTree = "<group>"; };
+		E5340B341B3CD65600604C4D /* URLFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLFieldDelegate.swift; sourceTree = "<group>"; };
+		E5340B641B3DFDE100604C4D /* UsernameFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsernameFieldDelegate.swift; sourceTree = "<group>"; };
+		E5340B661B3DFDF900604C4D /* PasswordFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordFieldDelegate.swift; sourceTree = "<group>"; };
+		E5340B681B416C4800604C4D /* OTMClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTMClient.swift; sourceTree = "<group>"; };
+		E5E185831B4C618F00F4EA67 /* NetworkConnectCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConnectCheck.swift; sourceTree = "<group>"; };
 		E5F95B031B29030D00396EC5 /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F95B071B29030D00396EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5F95B081B29030D00396EC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5F95B0A1B29030D00396EC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5F95B0A1B29030D00396EC5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = OnTheMap/LoginViewController.swift; sourceTree = "<group>"; };
 		E5F95B0D1B29030D00396EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5F95B0F1B29030D00396EC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E5F95B121B29030D00396EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E5F95B181B29030D00396EC5 /* OnTheMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTheMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F95B1D1B29030D00396EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5F95B1E1B29030D00396EC5 /* OnTheMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTheMapTests.swift; sourceTree = "<group>"; };
+		E5F95B2A1B2E7FDD00396EC5 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E5F95B2C1B2E816000396EC5 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E5F9AC041B8685E5004BC23A /* OTMConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTMConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +87,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E527FF4C1B5146F600961FC6 /* FBSDKLoginKit.framework in Frameworks */,
+				E527FF4A1B5146DF00961FC6 /* FBSDKCoreKit.framework in Frameworks */,
+				E527FF4E1B51470000961FC6 /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +103,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E5340AF11B34A55700604C4D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E5340AF21B34A56300604C4D /* pin.pdf */,
+				E5340AFA1B3AF81C00604C4D /* udacity.pdf */,
+				E527FF551B56AAAC00961FC6 /* OnTheMapGlobe.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E5340B301B3C77CE00604C4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5340AFC1B3B4F5B00604C4D /* CustomButton1.swift */,
+				E5340AFE1B3B51DF00604C4D /* CustomButton2.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E5340B311B3CD12300604C4D /* Delegate Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5F95B081B29030D00396EC5 /* AppDelegate.swift */,
+				E5340B321B3CD16C00604C4D /* LocationFieldDelegate.swift */,
+				E5340B341B3CD65600604C4D /* URLFieldDelegate.swift */,
+				E5340B641B3DFDE100604C4D /* UsernameFieldDelegate.swift */,
+				E5340B661B3DFDF900604C4D /* PasswordFieldDelegate.swift */,
+			);
+			name = "Delegate Files";
+			sourceTree = "<group>";
+		};
 		E5F95AFA1B29030D00396EC5 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +155,14 @@
 		E5F95B051B29030D00396EC5 /* OnTheMap */ = {
 			isa = PBXGroup;
 			children = (
-				E5F95B081B29030D00396EC5 /* AppDelegate.swift */,
-				E5F95B0A1B29030D00396EC5 /* ViewController.swift */,
+				E527FF4D1B51470000961FC6 /* FBSDKShareKit.framework */,
+				E527FF4B1B5146F600961FC6 /* FBSDKLoginKit.framework */,
+				E527FF491B5146DF00961FC6 /* FBSDKCoreKit.framework */,
+				E5340B311B3CD12300604C4D /* Delegate Files */,
+				E5340B301B3C77CE00604C4D /* View */,
+				E5340AF11B34A55700604C4D /* Images */,
+				E5F95B291B29040900396EC5 /* Models */,
+				E5F95B281B2903A600396EC5 /* Controllers */,
 				E5F95B0C1B29030D00396EC5 /* Main.storyboard */,
 				E5F95B0F1B29030D00396EC5 /* Images.xcassets */,
 				E5F95B111B29030D00396EC5 /* LaunchScreen.xib */,
@@ -110,6 +194,32 @@
 				E5F95B1D1B29030D00396EC5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5F95B281B2903A600396EC5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E5F95B0A1B29030D00396EC5 /* LoginViewController.swift */,
+				E5F95B2A1B2E7FDD00396EC5 /* MapViewController.swift */,
+				E5F95B2C1B2E816000396EC5 /* TableViewController.swift */,
+				E5340AE61B2FBB0E00604C4D /* VCMapView.swift */,
+				E5340AF41B37908400604C4D /* MyLocationViewController.swift */,
+				E527FF4F1B529D0800961FC6 /* WebViewController.swift */,
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E5F95B291B29040900396EC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5F9AC041B8685E5004BC23A /* OTMConstants.swift */,
+				E5340B681B416C4800604C4D /* OTMClient.swift */,
+				E5340AEA1B30A77800604C4D /* Locations.swift */,
+				E5340AEC1B34478000604C4D /* Students.swift */,
+				E5E185831B4C618F00F4EA67 /* NetworkConnectCheck.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +302,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5340AFB1B3AF81C00604C4D /* udacity.pdf in Resources */,
 				E5F95B0E1B29030D00396EC5 /* Main.storyboard in Resources */,
 				E5F95B131B29030D00396EC5 /* LaunchScreen.xib in Resources */,
+				E527FF561B56AAAC00961FC6 /* OnTheMapGlobe.png in Resources */,
+				E5340AF31B34A56300604C4D /* pin.pdf in Resources */,
 				E5F95B101B29030D00396EC5 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +325,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5F95B0B1B29030D00396EC5 /* ViewController.swift in Sources */,
+				E5340B331B3CD16C00604C4D /* LocationFieldDelegate.swift in Sources */,
+				E527FF501B529D0800961FC6 /* WebViewController.swift in Sources */,
+				E5340AE71B2FBB0E00604C4D /* VCMapView.swift in Sources */,
+				E5F95B0B1B29030D00396EC5 /* LoginViewController.swift in Sources */,
+				E5340AED1B34478000604C4D /* Students.swift in Sources */,
+				E5340B351B3CD65600604C4D /* URLFieldDelegate.swift in Sources */,
+				E5F9AC051B8685E5004BC23A /* OTMConstants.swift in Sources */,
+				E5F95B2B1B2E7FDD00396EC5 /* MapViewController.swift in Sources */,
+				E5340AFF1B3B51DF00604C4D /* CustomButton2.swift in Sources */,
+				E5340B671B3DFDF900604C4D /* PasswordFieldDelegate.swift in Sources */,
 				E5F95B091B29030D00396EC5 /* AppDelegate.swift in Sources */,
+				E5E185841B4C618F00F4EA67 /* NetworkConnectCheck.swift in Sources */,
+				E5F95B2D1B2E816000396EC5 /* TableViewController.swift in Sources */,
+				E5340AEB1B30A77800604C4D /* Locations.swift in Sources */,
+				E5340AFD1B3B4F5B00604C4D /* CustomButton1.swift in Sources */,
+				E5340B651B3DFDE100604C4D /* UsernameFieldDelegate.swift in Sources */,
+				E5340AF51B37908400604C4D /* MyLocationViewController.swift in Sources */,
+				E5340B691B416C4800604C4D /* OTMClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +469,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/geopotosky/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = OnTheMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +484,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/geopotosky/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = OnTheMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +548,7 @@
 				E5F95B241B29030D00396EC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5F95B251B29030D00396EC5 /* Build configuration list for PBXNativeTarget "OnTheMapTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +557,7 @@
 				E5F95B271B29030D00396EC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
